@@ -8,6 +8,7 @@ public class BackendApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(BackendApplication.class, args);
+		System.out.println("smart former social network app starting backend running..........");
 	}
 
 }
