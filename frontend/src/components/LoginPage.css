@@ -1,0 +1,89 @@
+/* Full page layout */
+.login-page {
+  min-height: 100vh;
+  background: #e9f8ee; /* light green background */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40px;
+  font-family: "Segoe UI", sans-serif;
+}
+/* Header section */
+
+.header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* Logo circle */
+.logo-circle {
+  width: 70px;
+  height: 70px;
+  background: #1dbf52; /* green */
+  border-radius: 50%;
+  margin: auto;
+  margin-bottom: 12px;
+}
+
+/* Image styling
+.logo-circle img {
+  width: 70%;
+  height: 70%;
+  object-fit: contain;
+} */
+
+/* Card */
+.role-card {
+  background: #fff;
+  width: 420px;
+  padding: 30px;
+  border-radius: 18px;
+  box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.08);
+  text-align: center;
+}
+.roles-container {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+.role-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px;
+  border-radius: 14px;
+  border: 1.5px solid #1dbf52;
+  cursor: pointer;
+  transition: 0.2s;
+  background: #ffffff;
+}
+.role-item:hover {
+  background: #f1fff5;
+  transform: translateY(-2px);
+}
+.role-icon {
+  font-size: 38px;
+  color: #1dbf52;
+}
+
+role-info {
+  flex: 1;
+  margin-left: 12px;
+  text-align: left;
+}
+.role-info h4 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+}
+.role-info p {
+  margin: 2px 0 0 0;
+  font-size: 14px;
+  color: #555;
+}
+.arrow {
+  font-size: 22px;
+  font-weight: bold;
+  color: #1dbf52;
+}
