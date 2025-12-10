@@ -1,7 +1,7 @@
 import React from "react";
 import { FaUserAlt, FaUserShield } from "react-icons/fa";
 //above is react icons , fa-> fontawesome
-// import applogo from "../assets/images/applogo.png";
+import applogo from "../assets/images/applogo.png";
 import "./LoginPage.css";
 const LoginPage = () => {
   return (
@@ -9,7 +9,7 @@ const LoginPage = () => {
       <div className="login-page">
         <div className="header">
           <div className="logo-circle">
-            {/* <img src={applogo} alt="AgroConnect Logo" /> */}
+            <img src={applogo} alt="AgroConnect Logo" />
           </div>
           <h2>AgroConnect</h2>
           <p>Connect, Share, and Grow Together</p>
